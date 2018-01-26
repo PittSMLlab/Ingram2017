@@ -40,10 +40,10 @@ plot(sqrt(sum(E.^2)),'LineWidth',3)
 hold on
 plot(sqrt(sum(Y.^2)).*(trialTypes'==2),'LineWidth',3)
 legend('Error','Output as % of ideal')
-
+title('Error and Adaptation indexes (Fig 2 panel B)')
 subplot(3,1,2) %Evolution of states
 plot(X([1,2,3,5,6,9],:)')
 legend({'0','22.5','45','90','112.5','180'})
-
-subplot(3,1,3) %Polar evolution of states
-polarplot([X1(:,1:5:end)])
+title('State evolution (for some modules)')
+%subplot(3,1,3) %Polar evolution of states
+%polarplot([X1(:,1:5:end)])
