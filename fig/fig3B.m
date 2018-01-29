@@ -7,7 +7,7 @@ b0=.1095; b180=.0225; sigmaB=14.5;
 c0=1; c180=.0323; sigmaC=14.5;
 prefDirs=[];
 
-%% Polar plots of model (comparable to middle panels in Fig 1)
+%% Polar plots of model (comparable to middle panels in Fig 2)
 figure
 D=[-90:1:180,-179:1:-91];
 subplot(3,1,1)
